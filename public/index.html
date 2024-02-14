@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Pet Finder</h1>
-    
+    <h3>
+      This is an introductory backend project. This page only serves to show
+      that I am capable of serving up an html file via a local source port.
+    </h3>
+    <p>
+      Open up insomnia or postman and try out the following endpoints that I
+      fixed with yet untold skill and ineffable finess.
+    </p>
+    <ul>
+      <li>// GET localhost:8080, returns this page.</li>
+      <li>// GET localhost:8080/api, returns hello world.</li>
+      <li>// GET localhost:8080/api/v1/pets, returns all pet data.</li>
+      <li>
+        // GET localhost:8080/api/v1/pets/owner?owner=John, returns the names of
+        dogs that owner "John" owns, currently Rover and Fido.
+      </li>
+      <li>
+        // GET localhost:8080/api/v1/pets/Rover, returns data specific to the
+        dog named Rover.
+      </li>
+    </ul>
+    <p>Behold, a pet finder...</p>
+    <img
+      src="https://jimcarreython.files.wordpress.com/2017/05/ace-ventura-1-e1497171653716.jpg?w=640"
+      alt="finder of pets"
+    />
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
